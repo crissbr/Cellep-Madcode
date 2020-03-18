@@ -3,6 +3,7 @@
 Aplicativo para cadastro de usuários Cellep/Madcode para celulares android
 
 Este aplicativo foi criado como um projeto do curso de Desenvolvimento Android oferecido pela escola Cellep/Madcode em parceria com a Estação Hack do Facebook.
+
 O App foi desenvolvido no Android Studio e foi usada a linguagem Kotlin.
 
 ![18_03_2020_18_13_39](https://user-images.githubusercontent.com/54155908/77008295-a844df80-6944-11ea-96f8-eb7cde422462.jpg)
