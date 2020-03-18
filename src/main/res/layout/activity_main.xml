@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail Do Usuário"
+        android:textColor="#FDFCFC"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txvSexo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvNomeUsuario" />
+
+    <TextView
+        android:id="@+id/txvBemVindo"
+        android:layout_width="185dp"
+        android:layout_height="35dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Seja Bem-Vindo!"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txvNomeUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvNomeUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Usuário"
+        android:textColor="#FDFCFC"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txvEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvBemVindo" />
+
+    <TextView
+        android:id="@+id/txvSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sexo do Usuário"
+        android:textColor="#FDFCFC"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSair"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvEmail" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvSexo" />
+
+    <Button
+        android:id="@+id/btnSite"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Site Cellep"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSair" />
+</androidx.constraintlayout.widget.ConstraintLayout>
